@@ -1,9 +1,9 @@
 //This file will create a VPC with a subnet
 
 provider "aws" {
-  access_key = "AKIAI5AFPIMTBWSGRF6A"
-  secret_key = "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"
-  region     =  "us-east-1"
+  access_key = "AKIAIIZHAU2D3ME3ZJWA"
+  secret_key = "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"
+  region     =  "us-east-2"
 }
 resource "aws_vpc" "first_vpc_terraform" {
   cidr_block =  "192.168.0.0/16"
